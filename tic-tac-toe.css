@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 100vw;
+	height: 100vh;
+	background-color:black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.outer-circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: blanchedalmond;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.inner-circle{
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.lap{
+	height: 250px;
+	overflow: auto;
+}
+.text{
+	color: blanchedalmond;
+	text-align: center;
+	font-size: 50px;	
+}
+.min{
+	font-size: 40px;
+}
+.sec{
+	font-size: 40px;
+}
+.msec{
+	font-size: 40px;
+}
+.button-wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 28px;
+}
+.button{
+	width: 60px;
+	height: 50px;
+	border-radius: 30%;
+	border: 3px solid blanchedalmond;
+ 	background: black;
+ 	color: blanchedalmond;
+ 	font-size: 15px;
+ 	cursor: pointer;
+}
+.button:hover{
+	
+	background-color: blanchedalmond;
+	color: black;
+}
+.lap{
+	color: blanchedalmond;
+	list-style: none;
+	overflow: auto;
+	position: relative;
+	height: 250px;
+	width: 250px;
+	margin-top: 30px;
+}
+.lap::-webkit-scrollbar {
+	display: none;
+}
+.lap-item{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid blanchedalmond;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.num{
+	color: blanchedalmond;
+}
+.time-stamp{
+	display: inline-block;
+	color: blanchedalmond;
+	margin-left: 25px;
+}
+.lap-clear-all{
+	text-align: center;
+	margin-left: ;
+	background-color: blanchedalmond;
+	color: black;
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px;
+	border: 1px solid blanchedalmond;
+	margin-left: 100px;
+}
+.lap-clear-all:hover{
+	cursor: pointer;
+	background-color: black;
+	color: blanchedalmond;
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	border: 1px solid blanchedalmond;
+	font-size: 15px;
+}
